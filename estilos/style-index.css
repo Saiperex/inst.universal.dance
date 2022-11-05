@@ -66,8 +66,27 @@ body
         color: gray;
     }
 }
-
-@media screen and (max-width:480px) 
+@media screen and (max-width:1225px) 
+{
+    .logo
+    {
+        font-size: 190px;
+    }
+    
+    .introbtn a
+    {
+        font-family: 'Neonderthaw', cursive;
+        font-size: 150px;
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+        text-shadow: 0 0 5px aqua, 0 0 10px aqua,0 0 20px aqua, 0 0 30px aqua, 0 0 40px aqua ;
+        border-radius: 30px;
+        box-shadow:inset 0 0 5px aqua,inset 0 0 10px aqua,0 0 20px aqua, 0 0 30px aqua, 0 0 40px aqua ;
+        transition: none;
+    }
+}
+@media screen and (max-width:940px) 
 {
     .logo
     {
