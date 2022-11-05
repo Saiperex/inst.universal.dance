@@ -1,6 +1,6 @@
 body
 {
-    background: url("/imagenes/bg.jpg");
+    background-image: url("/imagenes/bg.jpg");
     background-size: cover;
     display: flex;
     justify-content: space-around;
