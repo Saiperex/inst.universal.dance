@@ -33,6 +33,7 @@
     border-radius: 5px;
     margin-right: 20px;
     filter: blur(2px);
+    transition: color 500ms;
 }
 .lista-redes i:hover
 {
