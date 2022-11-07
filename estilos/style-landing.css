@@ -1,0 +1,58 @@
+.cabecera
+{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+.titulo
+{
+    font-family: 'Neonderthaw', cursive;
+    font-size: 50px;
+}
+.titulo h1
+{
+    margin-left: 30px;
+    color: white;
+    text-shadow: 0 0 5px violet, 0 0 10px violet,0 0 20px violet, 0 0 30px violet, 0 0 40px violet ;
+    border-radius: 30px;
+}
+.redes nav
+{
+    margin-right: 30px;
+}
+.lista-redes i
+{
+    color: black;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 20px;
+    filter: blur(2px);
+}
+.lista-redes i:hover
+{
+    color: white;
+    filter: blur(0px);
+    transition: all 500ms;
+}
+.fa-facebook-f:hover
+{
+    background-color: #3b5999;
+    box-shadow: 0 0 5px #3b5999, 0 0 10px #3b5999,0 0 20px #3b5999, 0 0 30px #3b5999, 0 0 40px #3b5999;
+}
+.fa-instagram:hover
+{
+    background-color:#e4405f ;
+    box-shadow: 0 0 5px #e4405f, 0 0 10px #e4405f,0 0 20px #e4405f, 0 0 30px #e4405f, 0 0 40px #e4405f;
+}
+.fa-whatsapp:hover
+{
+    background-color: #25D366;
+    box-shadow: 0 0 5px #25D366, 0 0 10px #25D366,0 0 20px #25D366, 0 0 30px #25D366, 0 0 40px #25D366;
+}
+/*main*/
