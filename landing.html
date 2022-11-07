@@ -13,7 +13,7 @@
 <body>
     <header class="cabecera">
         <div class="titulo">
-            <button><i class="fa-solid fa-bars"></i></button>
+            <button id="btn-menu"><i class="fa-solid fa-bars"></i></button>
             <h1>Universal Dance</h1>
         </div>
         <div class="redes">
@@ -28,7 +28,7 @@
     </header>
 
     <main class="cont-principal">
-        <div class="contenedor-menu">
+        <div id="contenedor-menu" class="contenedor-menu">
             <nav>
                 <li class="menu-item menu-somos"><img src="imagenes/bailarina-icono.png" alt=""><label>Quienes somos</label></li>
                 <li class="menu-item menu-galeria"><img src="imagenes/galeria.png" alt=""><label>Galeria</label></li>
@@ -37,9 +37,9 @@
                 <li class="menu-item menu-aranceles"><img src="imagenes/cupon.png" alt=""><label>Aranceles</label></li>
                 <li class="menu-item menu-contacto"><img src="imagenes/ubicacion.png" alt=""><label>Contacto</label></li>
             </nav>
-            <footer>
-                <img src="imagenes/logo-ud.png" alt="universal-Dance">
-                <div>
+            <footer id="footer">
+                <img id="img" src="imagenes/logo-ud.png" alt="universal-Dance">
+                <div id="texto">
                     <h3>Universal Dance</h3>
                     <h4>Todos los derechos reservados ©</h4>
                 </div>
@@ -71,5 +71,6 @@
         </section>
 
     </main>
+    <script src="scripts/script-menu.js"></script>
 </body>
 </html>
